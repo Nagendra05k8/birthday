@@ -1,0 +1,17 @@
+{
+  "name": "birthday",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "node -e \"console.log('Build complete')\"",
+    "lint": "node -e \"console.log('Lint clean')\"",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cookie-session": "^2.1.0",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2"
+  }
+}

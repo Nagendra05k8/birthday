@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday 🎂</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/birthday.css') }}">
+
+</head>
+
+
+<body>
+
+    <!-- Balloons -->
+
+    <div class="balloon b1">🎈</div>
+    <div class="balloon b2">🎈</div>
+    <div class="balloon b3">🎈</div>
+    <div class="balloon b4">🎈</div>
+    <div class="balloon b5">🎈</div>
+    <div class="balloon b6">🎈</div>
+
+
+    <!-- Floating hearts -->
+
+    <div class="heart h1">💖</div>
+    <div class="heart h2">💕</div>
+    <div class="heart h3">💗</div>
+
+
+    <main class="birthday-card">
+
+        <div class="cake">
+
+            🎂
+
+        </div>
+
+
+        <p class="welcome">
+
+            TODAY IS ALL ABOUT YOU ✨
+
+        </p>
+
+
+        <h1>
+
+            Happy Birthday
+
+        </h1>
+
+
+        <h2>
+
+            Madhuu.. 💖
+
+        </h2>
+
+
+        <div class="line"></div>
+
+
+        <p class="message">
+
+            May your special day be filled with
+            happiness, laughter, beautiful memories
+            and countless reasons to smile.
+
+        </p>
+
+
+        <p class="message second">
+
+            May God bless you with endless happiness, success,
+             peace, and beautiful moments. Keep shining always 🫶❤️✨
+
+        </p>
+
+
+        <button id="celebrate">
+
+            🎉 Celebrate 🎉
+
+        </button>
+
+
+        <p id="finalMessage">
+
+            Here's to another beautiful chapter! 🥳💫
+
+        </p>
+
+    </main>
+
+
+    <!-- Music -->
+
+    <audio id="birthdayMusic">
+
+        <source
+            src="{{ url_for('static', filename='music/birthday.mp3') }}"
+            type="audio/mpeg">
+
+    </audio>
+
+
+    <script
+        src="{{ url_for('static', filename='js/birthday.js') }}">
+    </script>
+
+</body>
+
+</html>
